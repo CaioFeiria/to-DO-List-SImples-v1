@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+#div_geral {
+  margin-top: 6rem;
+}
+
+section {
+  background-color: white;
+  border-radius: 18px;
+}
+
+#container_form {
+  padding: 2rem;
+}
+
+form img{
+  position: relative;
+  bottom: 5px;
+}
+
+#h2 {
+  padding: 20px;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+#input_titulo,
+#input_descricao {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #efefef !important;
+}
+
+#btn_adicionar {
+  font-size: 1.1rem;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgb(161, 161, 161);
+}
+
+#btn_adicionar:focus{
+  border: 4px solid #C2DBFE;
+}
+
+#container_list{
+  padding: 2rem;
+}
+
+#container_list li {
+  font-size: 1.2rem;
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container_list button {
+  background: transparent;
+  border: none;
+  width: 30px;
+  padding: 0 5px 0 0;
+}
+
+#container_list span {
+  padding: 2px;
+}
+
+#container_list img {
+  width: 30px;
+  height: 30px;
+}
+
+input[type="checkbox"] {
+  font-size: 22px;
+  margin-top: 3.5px;
+  border-radius: 50px !important;
+  background-color: #e5e5e5;
+  border: solid 1px #b9b9b9;
+}
+
+input[type="checkbox"]:checked{
+  background-color: orange;
+}
+
+.feito {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.span_erro{
+  font-size: 0.7rem;
+  margin-left: 5px;
+  color: red;
+}
+
+@media (max-width:1000px) {
+  #div_geral {
+    margin-top: 3rem;
+  }
+
+  #container_form{
+    padding: 20px;
+  }
+
+  #h2{
+    font-size: 1.2rem;
+  }
+
+  #input_titulo, #input_descricao{
+    font-size: 0.9rem;
+  }
+
+  #btn_adicionar{
+    font-size: 0.7rem;
+  }
+
+  #container_list{
+    padding: 20px;
+  }
+
+  #container_list li{
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  #container_list button {
+    width: 30px;
+  }
+
+  input[type="checkbox"] {
+    font-size: 15px;
+  }
+
+  #container_list img {
+    width: 22px;
+    height: 22px;
+  }
+}
